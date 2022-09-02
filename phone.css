@@ -1,0 +1,105 @@
+body{
+    background: url("back.png") no-repeat center center/cover;
+    
+
+}
+#row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+nav::before{
+    height: 280vh;
+    
+}
+#row img{
+    display: block;
+    margin: auto;
+    width: 40px;
+    height: 40px;
+   padding: 5px 0px 5px 5px;
+}
+#row div ul{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 0px 15px 0px;
+}
+#row div ul li{
+    text-align: center;
+}
+#row div ul li a{
+    font-size: 0.9rem;
+    padding: 7px 15px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+   
+}
+#home{
+    margin: 100px 80px 100px 80px;
+}
+#home div:nth-child(1){
+    font-size: 30px;
+}
+#home div:nth-child(2){
+    font-size: 14px;
+}
+#portion>div{
+    height: 1400px;
+    width: 90%;
+    
+}
+.boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.textservice{
+    font-size: 13px;
+}
+.boxes>div{
+    width: 90%;
+    margin: 10px 10px; 
+}
+
+#about::before{
+    height: 210%;
+    opacity: 0;
+} 
+#about{
+    margin-top: 180px;
+}
+#about >img{
+  
+    width: 20%;
+    height: 100%;
+    
+}
+.textt{
+    width: 50%;
+}
+
+.social a img{
+    width: 45%;
+    height: 15%;
+}
+
+#foot{
+    flex-direction: column;
+    height: 450px;
+    margin-top: 20px;
+    padding: 5px;
+  position: sticky;
+   
+}
+#foot>div{
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    
+}
+#foot ul{
+    padding: 1px 25px;
+}
+
